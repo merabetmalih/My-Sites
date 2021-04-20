@@ -1,0 +1,120 @@
+body{  margin: 0;
+  font-family: -apple-system, myFirstFont, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  background-repeat: no-repeat;
+  background-color:black ;
+  background-position: center;
+  background-size: auto;
+  background-clip: all;
+}
+@font-face {
+  font-family: myFirstFont;
+  src: url(ArbFONTS-DTHULUTH-II.ttf);
+
+}
+h1{text-align:center;
+  color: white;
+  font-size:x-large;
+font-size:350%;}
+html {
+  font-family: myFirstFont;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+.jamhome{
+  margin-top:-50%;
+  margin-left: -50%;
+  margin-right:0px;
+  
+  margin-bottom: 0 ;
+}
+h1:hover{background-color: black;}
+.link{
+  padding: 15px 30px;
+  margin: 10px;
+  display: inline-block;
+  color: #000;
+  background: #ffce54;
+  text-decoration: none;
+}
+
+.link:hover{
+  text-decoration: none;
+  color: #000;
+}
+
+/*===================*/
+/* WOOBLE BOTTOM
+/*===================*/
+
+@-webkit-keyframes wobble-bottom-on-hover {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+@keyframes wobble-bottom-on-hover {
+  16.65% {
+    -webkit-transform: skew(-12deg);
+    transform: skew(-12deg);
+  }
+  33.3% {
+    -webkit-transform: skew(10deg);
+    transform: skew(10deg);
+  }
+  49.95% {
+    -webkit-transform: skew(-6deg);
+    transform: skew(-6deg);
+  }
+  66.6% {
+    -webkit-transform: skew(4deg);
+    transform: skew(4deg);
+  }
+  83.25% {
+    -webkit-transform: skew(-2deg);
+    transform: skew(-2deg);
+  }
+  100% {
+    -webkit-transform: skew(0);
+    transform: skew(0);
+  }
+}
+.wobble-bottom-on-hover {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+}
+.wobble-bottom-on-hover:hover, .wobble-bottom-on-hover:focus, .wobble-bottom-on-hover:active {
+  -webkit-animation-name: wobble-bottom-on-hover;
+  animation-name: wobble-bottom-on-hover;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
